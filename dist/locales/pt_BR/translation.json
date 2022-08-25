@@ -1,0 +1,15 @@
+{
+    "hero": {
+        "top": "Uma frase",
+        "bottom": "de efeito"
+    },
+    "desc": {
+        "text": {
+            "top": "Introdução",
+            "bottom": "Descrição minha"
+        },
+        "skills": "Minhas skills",
+        "proj": "Meus projetos"
+    },
+    "language": "Portuguese - BR"
+}

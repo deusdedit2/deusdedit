@@ -16,7 +16,7 @@ function App() {
 
   return (
     <ApolloProvider client={client}>
-      <LocaleContext.Provider value={{ locale, setLocale }}>
+      <LocaleContext.Provider value={{ locale }}>
         <Suspense fallback={<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100vw', height: '100vh', position: "fixed", backgroundColor: "rgba(var(--bg-primary-rgb), 1)" }}><Loading /></div>}>
           <AnimatePresence>
             <BrowserRouter>

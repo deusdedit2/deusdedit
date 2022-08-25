@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://deusdedi2.github.io/deusdedit",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "vite",
     "dev": "vite",
     "build": "tsc && vite build",
@@ -13,6 +16,7 @@
     "@apollo/client": "^3.6.9",
     "classnames": "^2.3.1",
     "framer-motion": "^7.1.0",
+    "gh-pages": "^4.0.0",
     "graphql": "^16.5.0",
     "i18next": "^21.9.0",
     "i18next-browser-languagedetector": "^6.1.5",

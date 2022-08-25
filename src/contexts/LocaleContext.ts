@@ -1,8 +1,7 @@
 import React, { SetStateAction } from "react";
 
 const defaultValue = {
-  locale: 'ptBR',
-  setLocale: React.Dispatch<SetStateAction<string>>
+  locale: 'pt_BR',
 }
 
 export default React.createContext(defaultValue);
