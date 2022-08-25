@@ -1,0 +1,15 @@
+{
+    "hero": {
+        "top": "A catching",
+        "bottom": "phrase"
+    },
+    "desc": {
+        "text": {
+            "top": "Intro",
+            "bottom": "Description of me"
+        },
+        "skills": "My skills",
+        "proj": "My projects"
+    },
+    "language": "English"
+}
