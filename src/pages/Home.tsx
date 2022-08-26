@@ -176,9 +176,9 @@ export function Home() {
 
     return (
         <>
-            <motion.div className="logo-container" initial="visible" whileInView="hidden" viewport={{ once: true }} variants={divAnim} transition={{ opacity: { delay: 3 }, display: { delay: 5 }, duration: 9 }}>
+            {/* <motion.div className="logo-container" initial="visible" whileInView="hidden" viewport={{ once: true }} variants={divAnim} transition={{ opacity: { delay: 3 }, display: { delay: 5 }, duration: 9 }}>
                 <Loading />
-            </motion.div>
+            </motion.div> */}
 
             {/* <Header /> */}
             <main className="container">
